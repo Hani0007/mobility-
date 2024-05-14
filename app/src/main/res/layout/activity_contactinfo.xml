@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact Information"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:layout_marginTop="50dp"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:id="@+id/imag"
+        android:src="@drawable/pic"
+        android:layout_below="@id/info"/>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imag"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:text="Sara Lockchart"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+    <TextView
+        android:id="@+id/set"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:text="Managing director at"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/set"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:text="Email"
+        android:textAlignment="center"
+        android:textColor="#134dba"
+        android:textSize="20dp" />
+    <TextView
+        android:id="@+id/texemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/set"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:text="xyz@gmail.com"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/email"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:text="phone"
+        android:textAlignment="center"
+        android:textColor="#134dba"
+        android:textSize="20dp" />
+    <TextView
+        android:id="@+id/tephone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/texemail"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:text="012345678"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+    <TextView
+        android:id="@+id/Fax"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phone"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:text="Fax"
+        android:textAlignment="center"
+        android:textColor="#134dba"
+        android:textSize="20dp" />
+    <TextView
+        android:id="@+id/texFax"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tephone"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:text="+44 12344545"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+
+</RelativeLayout>

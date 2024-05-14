@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "183284378951",
+    "project_id": "accessibility-1fdba",
+    "storage_bucket": "accessibility-1fdba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:183284378951:android:b0abaabbe3d3f261e5f062",
+        "android_client_info": {
+          "package_name": "com.example.application"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDklpm7ZNH3gZoTaFz51J5shco8yyuZX3k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
